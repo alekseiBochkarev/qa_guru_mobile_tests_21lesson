@@ -34,7 +34,6 @@ public class BaseSetup extends AndroidDriverProvider {
     public static String appiumHost = null;
     public static String capabilities = null;
     public static String deviceName = null;
-    public static String deviceOrientation = null;
 
     /**** BROWSERSTACK GLOBAL VARS ****/
     public static String appURL = null;
@@ -81,14 +80,14 @@ public class BaseSetup extends AndroidDriverProvider {
         {
             JsonPath jsonPath = Attachments.getBrowserStackResponse(sessionId);
             Attachments.attachVideo(jsonPath);
-            Attachments.deviceLogs(jsonPath);
+    //        Attachments.deviceLogs(jsonPath);
         }
     }
 
     @AfterAll
     public static void tearDownDriver()
     {
-        driver.quit();
+        //driver.quit();
     }
 
     private static void initSelenideVars()
@@ -103,11 +102,11 @@ public class BaseSetup extends AndroidDriverProvider {
         appiumHost = MobileConfigHelper.appiumHost();
         appURL = MobileConfigHelper.appURL();
         capabilities = MobileConfigHelper.capabilities();
+        parseCapabilitiesFiles(capabilities);
         osVersion = MobileConfigHelper.osVersion();
         deviceName = MobileConfigHelper.deviceName();
         buildName = MobileConfigHelper.buildName();
         //    parseCapabilitiesFiles(System.getProperty("capabilities", getEnvVar("capabilities", String.valueOf(Capabilities.capabilitiesLocal))));
-        parseCapabilitiesFiles(capabilities);
         //    parseCapabilitiesFiles(System.getProperty(capabilities));
         if (capabilities_vars.containsKey("browserstack.user"))
         {
@@ -116,7 +115,6 @@ public class BaseSetup extends AndroidDriverProvider {
             changeExactCapability("os_version", osVersion);
         }
         changeExactCapability("device", deviceName);
-        changeExactCapability("deviceOrientation", deviceOrientation);
     }
 
     private static void changeExactCapability(String key, String value)

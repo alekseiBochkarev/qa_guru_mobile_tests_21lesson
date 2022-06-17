@@ -1,0 +1,273 @@
+06-17 04:59:10.713 I/Zygote  (12036): seccomp disabled by setenforce 0
+06-17 04:59:10.755 I/FirebaseApp(12036): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+06-17 04:59:10.801 I/FirebaseInitProvider(12036): FirebaseApp initialization successful
+06-17 04:59:10.832 D/WM-WrkMgrInitializer(12036): Initializing WorkManager with default configuration.
+06-17 04:59:10.855 D/NetworkSecurityConfig(12036): No Network Security Config specified, using platform default
+06-17 04:59:10.889 I/wikipedia.alph(12036): Explicit concurrent copying GC freed 7644(689KB) AllocSpace objects, 8(352KB) LOS objects, 50% free, 1524KB/2MB, paused 35us total 8.896ms
+06-17 04:59:10.912 W/wikipedia.alph(12036): Suspending all threads took: 7.990ms
+06-17 04:59:10.941 I/org.wikipedia.alpha(12036): type=1400 audit(0.0:4015): avc: denied { open } for comm=45474C20496E6974 path="/dev/__properties__/u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=20865 scontext=u:r:untrusted_app:s0:c205,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=1
+06-17 04:59:10.944 I/org.wikipedia.alpha(12036): type=1400 audit(0.0:4016): avc: denied { getattr } for comm=45474C20496E6974 path="/dev/__properties__/u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=20865 scontext=u:r:untrusted_app:s0:c205,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=1
+06-17 04:59:10.980 D/org.wikipedia.alpha(12036): Executing recurring task, remote-config-refresher. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:11.059 D/OpenGLRenderer(12036): Skia GL Pipeline
+06-17 04:59:11.080 D/org.wikipedia.alpha(12036): Received install referrer: utm_source=google-play&utm_medium=organic
+06-17 04:59:11.108 I/Adreno  (12036): QUALCOMM build                   : 3f88ca2, I42f6fe38fb
+06-17 04:59:11.108 I/Adreno  (12036): Build Date                       : 07/13/18
+06-17 04:59:11.108 I/Adreno  (12036): OpenGL ES Shader Compiler Version: EV031.24.00.00
+06-17 04:59:11.108 I/Adreno  (12036): Local Branch                     : 50.04
+06-17 04:59:11.108 I/Adreno  (12036): Remote Branch                    : 
+06-17 04:59:11.108 I/Adreno  (12036): Remote Branch                    : 
+06-17 04:59:11.108 I/Adreno  (12036): Reconstruct Branch               : 
+06-17 04:59:11.108 I/Adreno  (12036): Build Config                     : S P 4.0.10 AArch64
+06-17 04:59:11.110 I/Adreno  (12036): PFP: 0x016ee170, ME: 0x00000000
+06-17 04:59:11.114 I/ConfigStore(12036): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 1
+06-17 04:59:11.114 I/ConfigStore(12036): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 1
+06-17 04:59:11.115 I/OpenGLRenderer(12036): Initialized EGL, version 1.4
+06-17 04:59:11.116 D/OpenGLRenderer(12036): Swap behavior 2
+06-17 04:59:11.170 W/ActivityThread(12036): handleWindowVisibility: no activity for token android.os.BinderProxy@c4a5223
+06-17 04:59:11.182 D/org.wikipedia.alpha(12036): Executing recurring task, remote-config-refresher. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): {
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"disableAnonEditing": false,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"eventLogSampleRate": 0,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"disableFullTextSearch": false,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"searchLogSampleRate": 100,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"tocLogSampleRate": 100,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"restbaseBetaPercent": 100,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"restbaseProdPercent": 100,
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	"pushNotificationsExcludeCountries": [
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"AZ",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"BH",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"BD",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"BY",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"BN",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"CN",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"CU",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"DJ",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"EG",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"GQ",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"ER",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"ET",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"HK",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"IR",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"KZ",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"LA",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"LY",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"MM",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"KP",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"PK",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"QA",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"RU",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"SA",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"SO",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"SS",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"SD",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"SY",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"TH",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"TR",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"TM",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"AE",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"UZ",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"VE",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"VN",
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 		"YE"
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 	]
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): }
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): 
+06-17 04:59:11.208 D/org.wikipedia.alpha(12036): Executing recurring task, dailyEventTask. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:11.212 D/org.wikipedia.alpha(12036): Executing recurring task, alpha-update-checker. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): {
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"disableAnonEditing": false,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"eventLogSampleRate": 0,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"disableFullTextSearch": false,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"searchLogSampleRate": 100,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"tocLogSampleRate": 100,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"restbaseBetaPercent": 100,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"restbaseProdPercent": 100,
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	"pushNotificationsExcludeCountries": [
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"AZ",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"BH",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"BD",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"BY",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"BN",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"CN",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"CU",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"DJ",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"EG",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"GQ",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"ER",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"ET",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"HK",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"IR",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"KZ",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"LA",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"LY",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"MM",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"KP",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"PK",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"QA",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"RU",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"SA",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"SO",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"SS",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"SD",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"SY",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"TH",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"TR",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"TM",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"AE",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"UZ",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"VE",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"VN",
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 		"YE"
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 	]
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): }
+06-17 04:59:11.270 D/org.wikipedia.alpha(12036): 
+06-17 04:59:11.272 D/org.wikipedia.alpha(12036): Skipping recurring task, dailyEventTask. Last execution was Fri Jun 17 04:59:11 GMT 2022.
+06-17 04:59:11.272 D/org.wikipedia.alpha(12036): Executing recurring task, alpha-update-checker. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:11.361 I/AppCompatViewInflater(12036): app:theme is now deprecated. Please move to using android:theme instead.
+06-17 04:59:11.865 D/org.wikipedia.alpha(12036): Received a new Firebase token...
+06-17 04:59:12.610 W/StaticLayout(12036): maxLineHeight should not be -1.  maxLines:8 lineCount:8
+06-17 04:59:12.939 D/org.wikipedia.alpha(12036): Face detection took 10ms
+06-17 04:59:14.448 W/ActivityThread(12036): handleWindowVisibility: no activity for token android.os.BinderProxy@ef483cd
+06-17 04:59:14.459 D/org.wikipedia.alpha(12036): Skipping recurring task, remote-config-refresher. Last execution was Fri Jun 17 04:59:11 GMT 2022.
+06-17 04:59:14.459 D/org.wikipedia.alpha(12036): Skipping recurring task, dailyEventTask. Last execution was Fri Jun 17 04:59:11 GMT 2022.
+06-17 04:59:14.459 D/org.wikipedia.alpha(12036): Skipping recurring task, alpha-update-checker. Last execution was Fri Jun 17 04:59:11 GMT 2022.
+06-17 04:59:14.488 W/TabLayout(12036): MODE_SCROLLABLE + GRAVITY_FILL is not supported, GRAVITY_START will be used instead
+06-17 04:59:14.545 W/RecyclerView(12036): No adapter attached; skipping layout
+06-17 04:59:14.557 I/AssistStructure(12036): Flattened final assist data: 6008 bytes, containing 1 windows, 24 views
+06-17 04:59:14.889 D/ViewRootImpl[SearchActivity](12036): changeCanvasOpacity: opaque=true
+06-17 04:59:14.939 W/RecyclerView(12036): No adapter attached; skipping layout
+06-17 04:59:16.514 D/ViewRootImpl[SearchActivity](12036): changeCanvasOpacity: opaque=false
+06-17 04:59:17.449 W/Glide   (12036): Load failed for null with size [0x0]
+06-17 04:59:17.449 W/Glide   (12036): class com.bumptech.glide.load.engine.GlideException: Received null model
+06-17 04:59:17.455 W/View    (12036): requestLayout() improperly called by android.widget.ProgressBar{b27221d V.ED..... ......ID 0,-18-1080,26 #7f09048c app:id/search_progress_bar} during layout: running second layout pass
+06-17 04:59:17.458 W/Glide   (12036): Load failed for null with size [0x0]
+06-17 04:59:17.458 W/Glide   (12036): class com.bumptech.glide.load.engine.GlideException: Received null model
+06-17 04:59:17.771 W/Glide   (12036): Load failed for null with size [0x0]
+06-17 04:59:17.771 W/Glide   (12036): class com.bumptech.glide.load.engine.GlideException: Received null model
+06-17 04:59:17.800 W/Glide   (12036): Load failed for null with size [0x0]
+06-17 04:59:17.800 W/Glide   (12036): class com.bumptech.glide.load.engine.GlideException: Received null model
+06-17 04:59:19.817 I/FirebaseApp(13387): Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+06-17 04:59:19.844 I/FirebaseInitProvider(13387): FirebaseApp initialization successful
+06-17 04:59:19.868 D/WM-WrkMgrInitializer(13387): Initializing WorkManager with default configuration.
+06-17 04:59:19.904 D/NetworkSecurityConfig(13387): No Network Security Config specified, using platform default
+06-17 04:59:19.974 I/org.wikipedia.alpha(13387): type=1400 audit(0.0:4039): avc: denied { read } for comm=45474C20496E6974 name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=20865 scontext=u:r:untrusted_app:s0:c205,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=1
+06-17 04:59:19.974 I/org.wikipedia.alpha(13387): type=1400 audit(0.0:4040): avc: denied { open } for comm=45474C20496E6974 path="/dev/__properties__/u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=20865 scontext=u:r:untrusted_app:s0:c205,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=1
+06-17 04:59:19.974 I/org.wikipedia.alpha(13387): type=1400 audit(0.0:4041): avc: denied { getattr } for comm=45474C20496E6974 path="/dev/__properties__/u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=20865 scontext=u:r:untrusted_app:s0:c205,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=1
+06-17 04:59:20.020 D/org.wikipedia.alpha(13387): Executing recurring task, remote-config-refresher. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:20.104 D/OpenGLRenderer(13387): Skia GL Pipeline
+06-17 04:59:20.118 D/org.wikipedia.alpha(13387): Received install referrer: utm_source=google-play&utm_medium=organic
+06-17 04:59:20.144 I/Adreno  (13387): QUALCOMM build                   : 3f88ca2, I42f6fe38fb
+06-17 04:59:20.144 I/Adreno  (13387): Build Date                       : 07/13/18
+06-17 04:59:20.144 I/Adreno  (13387): OpenGL ES Shader Compiler Version: EV031.24.00.00
+06-17 04:59:20.144 I/Adreno  (13387): Local Branch                     : 50.04
+06-17 04:59:20.144 I/Adreno  (13387): Remote Branch                    : 
+06-17 04:59:20.144 I/Adreno  (13387): Remote Branch                    : 
+06-17 04:59:20.144 I/Adreno  (13387): Reconstruct Branch               : 
+06-17 04:59:20.144 I/Adreno  (13387): Build Config                     : S P 4.0.10 AArch64
+06-17 04:59:20.147 I/Adreno  (13387): PFP: 0x016ee170, ME: 0x00000000
+06-17 04:59:20.150 I/ConfigStore(13387): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 1
+06-17 04:59:20.150 I/ConfigStore(13387): android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 1
+06-17 04:59:20.150 I/OpenGLRenderer(13387): Initialized EGL, version 1.4
+06-17 04:59:20.150 D/OpenGLRenderer(13387): Swap behavior 2
+06-17 04:59:20.206 W/ActivityThread(13387): handleWindowVisibility: no activity for token android.os.BinderProxy@e0c061d
+06-17 04:59:20.215 D/org.wikipedia.alpha(13387): Executing recurring task, remote-config-refresher. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:20.343 I/AppCompatViewInflater(13387): app:theme is now deprecated. Please move to using android:theme instead.
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): {
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"disableAnonEditing": false,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"eventLogSampleRate": 0,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"disableFullTextSearch": false,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"searchLogSampleRate": 100,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"tocLogSampleRate": 100,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"restbaseBetaPercent": 100,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"restbaseProdPercent": 100,
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	"pushNotificationsExcludeCountries": [
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"AZ",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"BH",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"BD",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"BY",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"BN",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"CN",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"CU",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"DJ",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"EG",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"GQ",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"ER",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"ET",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"HK",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"IR",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"KZ",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"LA",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"LY",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"MM",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"KP",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"PK",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"QA",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"RU",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"SA",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"SO",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"SS",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"SD",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"SY",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"TH",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"TR",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"TM",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"AE",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"UZ",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"VE",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"VN",
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 		"YE"
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 	]
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): }
+06-17 04:59:20.588 D/org.wikipedia.alpha(13387): 
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): Executing recurring task, dailyEventTask. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): {
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"disableAnonEditing": false,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"eventLogSampleRate": 0,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"disableFullTextSearch": false,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"searchLogSampleRate": 100,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"tocLogSampleRate": 100,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"restbaseBetaPercent": 100,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"restbaseProdPercent": 100,
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	"pushNotificationsExcludeCountries": [
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"AZ",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"BH",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"BD",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"BY",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"BN",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"CN",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"CU",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"DJ",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"EG",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"GQ",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"ER",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"ET",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"HK",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"IR",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"KZ",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"LA",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"LY",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"MM",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"KP",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"PK",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"QA",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"RU",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"SA",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"SO",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"SS",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"SD",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"SY",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"TH",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"TR",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"TM",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"AE",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"UZ",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"VE",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"VN",
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 		"YE"
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 	]
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): }
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): 
+06-17 04:59:20.589 D/org.wikipedia.alpha(13387): Executing recurring task, dailyEventTask. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:20.590 D/org.wikipedia.alpha(13387): Executing recurring task, alpha-update-checker. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:20.590 D/org.wikipedia.alpha(13387): Executing recurring task, alpha-update-checker. Last execution was Thu Jan 01 00:00:00 GMT 1970.
+06-17 04:59:20.617 D/org.wikipedia.alpha(13387): Received a new Firebase token...
