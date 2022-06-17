@@ -2,6 +2,10 @@ package config;
 
 import org.aeonbits.owner.Config;
 
+@Config.LoadPolicy(Config.LoadType.MERGE)
+@Config.Sources({
+        "system:properties",
+        "classpath:capabilitiesBrowserstack.properties" })
 public interface CapabilitiesBrowserStackConfig extends Config {
     @Key("browserstack.user")
     String browserStackUserName();

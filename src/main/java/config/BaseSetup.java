@@ -24,7 +24,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static com.github.automatedowl.tools.AllureEnvironmentWriter.allureEnvironmentWriter;
 import static tools.Attachments.getSessionId;
 
-public class BaseSetup extends AndroidDriverProvider{
+public class BaseSetup extends AndroidDriverProvider {
     private static final String RESOURCES_POSTFIX = ".properties";
     private static final String RESOURCES_PATH = "src/test/resources";
     public static final String ENV_RESOURCES_PREFIX = System.getProperty("env", String.valueOf(Env.envBrowserstack));
@@ -101,6 +101,7 @@ public class BaseSetup extends AndroidDriverProvider{
     private static void initEnvVars() throws IOException
     {
         appiumHost = MobileConfigHelper.appiumHost();
+        appURL = MobileConfigHelper.appURL();
         capabilities = MobileConfigHelper.capabilities();
         osVersion = MobileConfigHelper.osVersion();
         deviceName = MobileConfigHelper.deviceName();
@@ -111,6 +112,7 @@ public class BaseSetup extends AndroidDriverProvider{
         if (capabilities_vars.containsKey("browserstack.user"))
         {
             changeExactCapability("build", buildName);
+            changeExactCapability("app", appURL);
             changeExactCapability("os_version", osVersion);
         }
         changeExactCapability("device", deviceName);
@@ -148,6 +150,22 @@ public class BaseSetup extends AndroidDriverProvider{
 
             bundle.keySet().forEach(key -> capabilities_vars.put(key, bundle.getString(key)));
         });
+    }
+
+    private static void parseEnvFiles() throws IOException
+    {
+        getAllEnvFiles().forEach(path -> {
+            final ResourceBundle bundle = ResourceBundle
+                    .getBundle(path.getFileName().toString().replace(RESOURCES_POSTFIX, ""));
+
+            bundle.keySet().forEach(key -> env_vars.put(key, bundle.getString(key)));
+        });
+    }
+
+    private static List<Path> getAllEnvFiles() throws IOException
+    {
+        return Files.walk(Paths.get(RESOURCES_PATH)).filter(p -> p.toString().contains(ENV_RESOURCES_PREFIX))
+                .collect(Collectors.toList());
     }
 
     private static List<Path> getAllEnvFiles(String propertiesFileName) throws IOException

@@ -19,7 +19,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <selenide-appium.version>1.7.2</selenide-appium.version>
-        <junit.version>5.8.0-M1</junit.version>
+        <junit.version>5.7.2</junit.version>
         <slf4j.version>1.7.30</slf4j.version>
         <rest.assured.version>4.3.3</rest.assured.version>
         <allure-junit5.version>2.15.0</allure-junit5.version>
@@ -119,12 +119,6 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <includes>
-                        <include>**/Test*.java</include>
-                        <include>**/*Test.java</include>
-                        <include>**/*Tests.java</include>
-                        <include>**/*TestCase.java</include>
-                    </includes>
                     <systemProperties>
                         <property>
                             <name>junit.jupiter.extensions.autodetect.enabled</name>

@@ -50,4 +50,22 @@ public class MobileConfigHelper {
     {
         return getCapabilitiesBrowserstackConfig().browserStackKey();
     }
+
+    @Config.Key("os_version")
+    public static String osVersion()
+    {
+        return getCapabilitiesBrowserstackConfig().osVersion();
+    }
+
+    @Config.Key("app")
+    public static String appURL()
+    {
+        return getCapabilitiesBrowserstackConfig().appURL();
+    }
+
+    @Config.Key("build")
+    public static String buildName()
+    {
+        return getCapabilitiesBrowserstackConfig().buildName();
+    }
 }
